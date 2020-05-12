@@ -1,3 +1,11 @@
+# Ignore all bazel-* symlinks.
+/bazel-*
+# Ignore Bazel verbose explanations
+--verbose_explanations
+
+# Ignore VS Code files
+.vscode/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
